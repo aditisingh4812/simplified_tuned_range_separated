@@ -36,7 +36,7 @@
  end
  tddft
   rpa
-  nroots 40
+  nroots 30
   tda
  end
  task tddft energy
