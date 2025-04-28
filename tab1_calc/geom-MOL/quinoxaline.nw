@@ -1,0 +1,39 @@
+ start quinoxaline
+ memory heap 100000 mb stack 100000 mb global 100000 mb
+ memory total 300000 mb
+ geometry units angstroms noautosym noautoz
+   C    -0.708217    -0.000000    -0.043106
+   C     0.708217     0.000000    -0.043106
+   C    -1.404008    -0.000000     1.186577
+   C     1.404008    -0.000000     1.186577
+   C    -0.707605    -0.000000     2.368341
+   C     0.707605    -0.000000     2.368341
+   C    -0.708762     0.000000    -2.308751
+   C     0.708762     0.000000    -2.308751
+   N    -1.420364     0.000000    -1.205153
+   N     1.420364     0.000000    -1.205153
+   H    -2.481396    -0.000000     1.157875
+   H     2.481396    -0.000000     1.157875
+   H    -1.238131    -0.000000     3.306541
+   H     1.238131    -0.000000     3.306541
+   H    -1.245524     0.000000    -3.246714
+   H     1.245524     0.000000    -3.246714
+   
+   
+ end
+ charge 0
+ basis 
+   * library def2-TZVPD
+ end
+ dft
+  grid xfine
+  xc xwpbe 1.00 cpbe96 1.0 hfexch 1.00
+  cam 0.269 cam_alpha 0.00 cam_beta 1.00
+  mult 1
+ end
+ tddft
+  rpa
+  nroots 8
+  tda
+ end
+ task tddft energy

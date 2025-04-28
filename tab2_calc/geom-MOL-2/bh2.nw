@@ -1,0 +1,24 @@
+ start bh2
+ memory heap 20000 mb stack 20000 mb global 50000 mb
+ memory total 100000 mb
+ geometry units angstroms noautosym noautoz 
+   B     0.000000     0.000000     0.146403
+   H    -1.064276    -0.000000    -0.366006
+   H     1.064276     0.000000    -0.366006
+   
+ end
+ charge 0
+ basis 
+   * library def2-TZVPD
+ end
+ dft
+  grid xfine
+  xc xwpbe 1.00 cpbe96 1.0 hfexch 1.00
+  cam 0.367 cam_alpha 0.00 cam_beta 1.00
+  mult 2
+ end
+ tddft
+  tda
+  nroots 10
+ end
+ task tddft energy

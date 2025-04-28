@@ -1,0 +1,38 @@
+ start phthalazine
+ memory heap 100000 mb stack 100000 mb global 100000 mb
+ memory total 300000 mb
+ geometry units angstroms noautosym noautoz
+   C    -0.700945     0.000000    -0.010869
+   C     0.700945    -0.000000    -0.010869
+   C    -1.404894    -0.000000     1.209204
+   C     1.404894    -0.000000     1.209204
+   C    -0.706507    -0.000000     2.393757
+   C     0.706507    -0.000000     2.393757
+   C    -1.321917     0.000000    -1.285900
+   C     1.321917     0.000000    -1.285900
+   N    -0.685683     0.000000    -2.430814
+   N     0.685683     0.000000    -2.430814
+   H    -2.484008    -0.000000     1.201552
+   H     2.484008    -0.000000     1.201552
+   H    -1.235833    -0.000000     3.332540
+   H     1.235833    -0.000000     3.332540
+   H    -2.401740     0.000000    -1.355555
+   H     2.401740     0.000000    -1.355555
+   
+ end
+ charge 0
+ basis 
+   * library def2-TZVPD
+ end
+ dft
+  grid xfine
+  xc xwpbe 1.00 cpbe96 1.0 hfexch 1.00
+  cam 0.274 cam_alpha 0.00 cam_beta 1.00
+  mult 1
+ end
+ tddft
+  rpa
+  nroots 8
+  tda
+ end
+ task tddft energy

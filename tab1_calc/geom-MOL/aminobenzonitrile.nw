@@ -1,0 +1,37 @@
+ start aminobenzonitrile
+ memory heap 100000 mb stack 100000 mb global 100000 mb
+ memory total 300000 mb
+ geometry units angstroms noautosym noautoz
+   C    -0.000000    -0.000000     1.711853
+   C     1.205623     0.000000     0.995504
+   C    -1.205623    -0.000000     0.995504
+   C     0.000000     0.000000    -1.096650
+   C     1.203091     0.000000    -0.386728
+   C    -1.203091    -0.000000    -0.386728
+   C     0.000000     0.000000    -2.521976
+   N    -0.000000    -0.000000     3.077392
+   N     0.000000     0.000000    -3.685123
+   H     2.141980     0.000000     1.530827
+   H    -2.141980    -0.000000     1.530827
+   H     2.136312     0.000000    -0.925420
+   H    -2.136312    -0.000000    -0.925420
+   H    -0.858204    -0.000000     3.589308
+   H     0.858204     0.000000     3.589308
+   
+ end
+ charge 0
+ basis 
+   * library def2-TZVPD
+ end
+ dft
+  grid xfine
+  xc xwpbe 1.00 cpbe96 1.0 hfexch 1.00
+  cam 0.278 cam_alpha 0.00 cam_beta 1.00
+  mult 1
+ end
+ tddft
+  rpa
+  nroots 8
+  tda
+ end
+ task tddft energy

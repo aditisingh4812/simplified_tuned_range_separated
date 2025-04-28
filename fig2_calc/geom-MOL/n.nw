@@ -1,0 +1,23 @@
+ start n
+ memory heap 20000 mb stack 20000 mb global 50000 mb
+ memory total 100000 mb
+ geometry units angstroms noautosym noautoz 
+   N     0.000000     0.000000    0.00000
+   
+ end
+ charge 0
+ basis 
+   * library aug-cc-pVTZ
+ end
+ dft
+  grid xfine
+  xc xwpbe 1.00 cpbe96 1.0 hfexch 1.00
+  cam 0.429 cam_alpha 0.00 cam_beta 1.00
+  print high
+  mult 4
+ end
+ tddft
+  rpa
+  nroots 5
+ end
+ task tddft energy

@@ -1,0 +1,25 @@
+ start hcf
+ memory heap 20000 mb stack 20000 mb global 50000 mb
+ memory total 100000 mb
+ geometry units angstroms noautosym noautoz 
+   C     0.702563     0.186359    -0.000000
+   F    -0.592114    -0.029941     0.000000
+   H     1.113646    -0.848683    -0.000000
+   
+   
+ end
+ charge 0
+ basis 
+   * library def2-TZVPD
+ end
+ dft
+  grid xfine
+  xc xwpbe 1.00 cpbe96 1.0 hfexch 1.00
+  cam 0.345 cam_alpha 0.00 cam_beta 1.00
+  mult 1
+ end
+ tddft
+  tda
+  nroots 10
+ end
+ task tddft energy
