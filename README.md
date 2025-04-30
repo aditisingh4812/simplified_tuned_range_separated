@@ -14,12 +14,12 @@ Separately, the geom repository houses all molecular geometries (optimized struc
 
 ## 🚀 Features
 
-- Feature 1 - Streamlined ω_eff Calculation
-  Integrated with PySCF’s framework for effortless computation of range-separation parameters.
+- Feature 1 - Streamlined ω_eff Calculation:
+- Integrated with PySCF’s framework for effortless computation of range-separation parameters.
 - Feature 2 - Transparent Workflow Documentation
-  Raw input files and annotated output results provide full visibility into computational workflows and final outcomes.
+- Raw input files and annotated output results provide full visibility into computational workflows and final outcomes.
 - Feature 3 - Comprehensive Geometry Library
-  Access all optimized molecular structures used in the study, formatted for seamless compatibility.
+- Access all optimized molecular structures used in the study, formatted for seamless compatibility.
 
 
 
