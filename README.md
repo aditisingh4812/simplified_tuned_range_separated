@@ -43,3 +43,8 @@ If you use **Simplified Tuned Range Separated** in your research, please cite th
 
 **Simplified Tuned Range Separated Toolkit**  
 
+## 🤝 Acknowledgments
+
+This work builds on prior developments in range-separated hybrid functionals. We acknowledge the financial support from the National Science Centre, Poland (grant no. 2021/42/E/ST4/00096).
+
+
