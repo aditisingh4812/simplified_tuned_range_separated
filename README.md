@@ -1,8 +1,15 @@
 # Simplified Tuned Range Separated
 
-The project is with regards to giving the user an idea of how to use Simplified Tuned Range Separted functional. In the try_urslf repo you can find an extension of PySCF where you can find both restricted
-and unrestrcited files for omega calculation. 
-The other repository are the calculation details of the figures and tables in the paper"give_arxiv_details" from NWchem and QChem  
+This initiative offers practical guidance on implementing the Simplified Tuned Range-Separated Functional (STRSF). The methodology is demonstrated through the try_urslf GitHub repository, which hosts a customized extension of the PySCF computational chemistry framework. Within this repository, users will find dedicated modules for both restricted and unrestricted calculations, specifically tailored for optimizing the ω (omega) parameter in range-separated hybrid functionals.
+
+# Repository Overview:
+The give_arxiv_details repository archives computational workflows and raw data supporting the figures and tables in the associated paper. It includes:
+
+Input/output files from quantum chemistry packages (NWChem and Q-Chem) for reproducibility.
+
+Calculation details for transparency and peer validation.
+
+Separately, the geom repository houses all molecular geometries (optimized structures) used in the study, ensuring seamless reconstruction of the paper’s computational experiments.
 
 
 ## 🚀 Features
