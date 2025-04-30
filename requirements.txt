@@ -1,3 +1,4 @@
 pyscf
 numpy
 scipy
+matplotlib
