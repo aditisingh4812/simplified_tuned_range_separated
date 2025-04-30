@@ -31,6 +31,7 @@ Clone the repo and install dependencies:
 git clone https://github.com/aditisingh4812/simplified_tuned_range_separated.git
 cd simplified_tuned_range_separated
 pip install -r requirements.txt
+'''
 
 
 ## **©️ Copyright**
