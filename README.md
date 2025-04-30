@@ -33,5 +33,6 @@ cd simplified_tuned_range_separated
 pip install -r requirements.txt
 
 
-## Copyright
-Copyright © 2025, Szymon Śmiga Group
+## **©️ Copyright**
+**Copyright © 2025, Szymon Śmiga Group**
+
