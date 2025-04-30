@@ -37,3 +37,9 @@ pip install -r requirements.txt
 ## **©️ Copyright**
 **Copyright © 2025, Szymon Śmiga Group**
 
+## 📚 Citing Simplified Tuned Range Separated
+
+If you use **Simplified Tuned Range Separated** in your research, please cite the following work:
+
+**Simplified Tuned Range Separated Toolkit**  
+
