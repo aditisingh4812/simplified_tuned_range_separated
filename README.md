@@ -3,7 +3,7 @@
 This initiative offers practical guidance on implementing the Simplified Tuned Range-Separated Functional (STRSF). The methodology is demonstrated through the try_urslf GitHub repository, which hosts a customized extension of the PySCF computational chemistry framework. Within this repository, users will find dedicated modules for both restricted and unrestricted calculations, tailored explicitly for optimizing the ω_eff parameter in range-separated hybrid functionals.
 
 # Repository Overview:
-The give_arxiv_details repository archives computational workflows and raw data supporting the figures and tables in the associated paper. It includes:
+The repository archives "give_arxiv_details"  computational workflows and raw data supporting the figures and tables in the associated paper. It includes:
 
 Input/output files from quantum chemistry packages (NWChem and Q-Chem) for reproducibility.
 
@@ -14,7 +14,7 @@ Separately, the geom repository houses all molecular geometries (optimized struc
 
 ## 🚀 Features
 
-- Feature 1 - Streamlined ω Calculation
+- Feature 1 - Streamlined ω_eff Calculation
   Integrated with PySCF’s framework for effortless computation of range-separation parameters.
 - Feature 2 - Transparent Workflow Documentation
   Raw input files and annotated output results provide full visibility into computational workflows and final outcomes.
