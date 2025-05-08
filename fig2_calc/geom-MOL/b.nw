@@ -10,9 +10,9 @@
    * library aug-cc-pVTZ
  end
  dft
-  grid xfine
+  grid fine
   xc xwpbe 1.00 cpbe96 1.0 hfexch 1.00
-  cam 0.389 cam_alpha 0.00 cam_beta 1.00
+  cam 0.369 cam_alpha 0.00 cam_beta 1.00
   print high
   mult 2
  end

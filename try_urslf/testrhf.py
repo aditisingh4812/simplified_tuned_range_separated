@@ -8,9 +8,7 @@ from pyscf.dft import numint
 # Define the molecule with coordinates and custom nuclear charges
 # ------------------------------------------------------------------------------
 mol = gto.M(atom='''
-C         0.0000  0.0000  5.7854 0.744860
-O        -0.6754 -0.6754  5.1099 0.888124
-O         0.6754  0.6754  6.4607 0.888065
+Ne 0 0 0        
         ''',
         basis='cc-pvdz',  
         spin=0)  
@@ -19,10 +17,6 @@ O         0.6754  0.6754  6.4607 0.888065
 # Compute number of alpha and beta electrons
 # ------------------------------------------------------------------------------
 n = mol.nelectron  
-n_alpha = (n + mol.spin) // 2
-print("n_alpha", n_alpha)
-n_beta = n - n_alpha  
-print("n_beta", n_beta)
 
 # ------------------------------------------------------------------------------
 # Set up a restricted Kohn-Sham DFT calculation using PBE functional
@@ -51,7 +45,7 @@ dm = mf.make_rdm1()  # 1-electron reduced density matrix
 # ------------------------------------------------------------------------------
 # Constants used 
 # ------------------------------------------------------------------------------
-rho_in = 0.000696  # Normalization constant for density
+rho_in = 0.0164  # Normalization constant for density
 epsilon = 1e-20  # Threshold to avoid division by zero
 a1 = 1.91718
 a2 = -0.02817
@@ -61,14 +55,13 @@ a3 = 0.14954
 # Compute spin density and its gradient (GGA-level evaluation)
 # ------------------------------------------------------------------------------
 rho_total_a, grad_x_a, grad_y_a, grad_z_a = numint.eval_rho(mol, ao, dm, xctype='GGA')
-rho_total_a = 0.5 * rho_total_a  # Since RKS (closed-shell), divide total density equally
 
 print("rho_total_a", rho_total_a)  # Optional: print raw α-density values
 
 # ------------------------------------------------------------------------------
 # Compute the error function term for the custom model
 # ------------------------------------------------------------------------------
-erf_term_a = erf(n_alpha * rho_total_a / rho_in)  # erf scaled by density
+erf_term_a = erf(n * rho_total_a / rho_in)  # erf scaled by density
 mask_a = rho_total_a > epsilon  # Mask to skip near-zero densities
 
 # ------------------------------------------------------------------------------
@@ -97,10 +90,27 @@ mu_eff_a = (
 )
 
 # ------------------------------------------------------------------------------
-# Final μ_eff for both spins (α and β): multiply by 2 for total spin contribution
+# Final μ_eff 
 # ------------------------------------------------------------------------------
-mu_eff = mu_eff_a * 2
+mu_eff = mu_eff_a 
 
 # Output the result
 print("mu_eff", mu_eff)
+
+# ------------------------------------------------------------------------------
+# Final n_c cutoff
+# ------------------------------------------------------------------------------
+
+n_c = rho_in/n
+
+print("n_c", n_c)
+
+# ------------------------------------------------------------------------------
+# Final cutoff radius r_c
+# ------------------------------------------------------------------------------
+
+r_c = (3 / (4 * np.pi * n_c)) ** (1 / 3)
+
+print("r_c", r_c)
+
 
