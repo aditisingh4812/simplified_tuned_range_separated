@@ -447,7 +447,7 @@
            ---------------------------
            Alpha           :  0.00
            Beta            :  1.00
-           Gamma           :  0.31
+           Gamma           :  0.26
            Short-Range HF  :     F
 
              Grid Information
@@ -7358,734 +7358,99 @@
    39    1   39   50 a        -0.342     0.128    12.785
    40    1   37   49 a        -0.357     0.114    12.809
 --------------------------------------------------------
+              Target root =      1
+          Target symmetry = none
+      Ground state energy =   -495.607283975276
+        Excitation energy =      0.183388304391
+     Excited state energy =   -495.423895670884
+
+  stored tddft:energy   -495.42389567088446
+
+ Task  times  cpu:    12587.0s     wall:    14501.9s
+
+
+                                NWChem Input Module
+                                -------------------
+
+
+ Summary of allocated global arrays
+-----------------------------------
+  No active global arrays
+
+
+MA_summarize_allocated_blocks: starting scan ...
+heap block 'gridpts', handle 100, address 0x12c63828:
+        type of elements:               double precision
+        number of elements:             10485631935
+        address of client space:        0x12c63880
+        index for client space:         11215463
+        total number of bytes:          83885055576
+MA_summarize_allocated_blocks: scan completed: 1 heap block, 0 stack blocks
+MA usage statistics:
+
+        allocation statistics:
+                                              heap           stack
+                                              ----           -----
+        current number of blocks                 1               0
+        maximum number of blocks                18              53
+        current total bytes             83885055576              0
+        maximum total bytes             83887546480       47595224
+        maximum total K-bytes             83887547           47596
+        maximum total M-bytes                83888              48
+
+
+                                     CITATION
+                                     --------
+                Please cite the following reference when publishing
+                           results obtained with NWChem:
+
+          E. Apra, E. J. Bylaska, W. A. de Jong, N. Govind, K. Kowalski,
+       T. P. Straatsma, M. Valiev, H. J. J. van Dam, Y. Alexeev, J. Anchell,
+       V. Anisimov, F. W. Aquino, R. Atta-Fynn, J. Autschbach, N. P. Bauman,
+     J. C. Becca, D. E. Bernholdt, K. Bhaskaran-Nair, S. Bogatko, P. Borowski,
+         J. Boschen, J. Brabec, A. Bruner, E. Cauet, Y. Chen, G. N. Chuev,
+      C. J. Cramer, J. Daily, M. J. O. Deegan, T. H. Dunning Jr., M. Dupuis,
+   K. G. Dyall, G. I. Fann, S. A. Fischer, A. Fonari, H. Fruchtl, L. Gagliardi,
+      J. Garza, N. Gawande, S. Ghosh, K. Glaesemann, A. W. Gotz, J. Hammond,
+       V. Helms, E. D. Hermes, K. Hirao, S. Hirata, M. Jacquelin, L. Jensen,
+   B. G. Johnson, H. Jonsson, R. A. Kendall, M. Klemm, R. Kobayashi, V. Konkov,
+      S. Krishnamoorthy, M. Krishnan, Z. Lin, R. D. Lins, R. J. Littlefield,
+      A. J. Logsdail, K. Lopata, W. Ma, A. V. Marenich, J. Martin del Campo,
+   D. Mejia-Rodriguez, J. E. Moore, J. M. Mullin, T. Nakajima, D. R. Nascimento,
+    J. A. Nichols, P. J. Nichols, J. Nieplocha, A. Otero-de-la-Roza, B. Palmer,
+    A. Panyala, T. Pirojsirikul, B. Peng, R. Peverati, J. Pittner, L. Pollack,
+   R. M. Richard, P. Sadayappan, G. C. Schatz, W. A. Shelton, D. W. Silverstein,
+   D. M. A. Smith, T. A. Soares, D. Song, M. Swart, H. L. Taylor, G. S. Thomas,
+            V. Tipparaju, D. G. Truhlar, K. Tsemekhman, T. Van Voorhis,
+      A. Vazquez-Mayagoitia, P. Verma, O. Villa, A. Vishnu, K. D. Vogiatzis,
+        D. Wang, J. H. Weare, M. J. Williamson, T. L. Windus, K. Wolinski,
+        A. T. Wong, Q. Wu, C. Yang, Q. Yu, M. Zacharias, Z. Zhang, Y. Zhao,
+                                and R. J. Harrison
+                        "NWChem: Past, present, and future
+                         J. Chem. Phys. 152, 184102 (2020)
+                               doi:10.1063/5.0004997
+
+                                      AUTHORS
+                                      -------
+  E. Apra, E. J. Bylaska, N. Govind, K. Kowalski, M. Valiev, D. Mejia-Rodriguez,
+       A. Kunitsa, N. P. Bauman, A. Panyala, W. A. de Jong, T. P. Straatsma,
+   H. J. J. van Dam, D. Wang, T. L. Windus, J. Hammond, J. Autschbach, A. Woods,
+    K. Bhaskaran-Nair, J. Brabec, K. Lopata, S. A. Fischer, S. Krishnamoorthy,
+     M. Jacquelin, W. Ma, M. Klemm, O. Villa, Y. Chen, V. Anisimov, F. Aquino,
+     S. Hirata, M. T. Hackler, E. Hermes, L. Jensen, J. E. Moore, J. C. Becca,
+      V. Konjkov, T. Risthaus, M. Malagoli, A. Marenich, A. Otero-de-la-Roza,
+        J. Mullin, P. Nichols, R. Peverati, J. Pittner, Y. Zhao, P.-D. Fan,
+        A. Fonari, M. J. Williamson, R. J. Harrison, J. R. Rehr, M. Dupuis,
+     D. Silverstein, D. M. A. Smith, J. Nieplocha, V. Tipparaju, M. Krishnan,
+     B. E. Van Kuiken, A. Vazquez-Mayagoitia, M. Swart, Q. Wu, T. Van Voorhis,
+     A. A. Auer, M. Nooijen, L. D. Crosby, E. Brown, G. Cisneros, G. I. Fann,
+   H. Fruchtl, J. Garza, K. Hirao, R. A. Kendall, J. A. Nichols, K. Tsemekhman,
+    K. Wolinski, J. Anchell, D. E. Bernholdt, P. Borowski, T. Clark, D. Clerc,
+   H. Dachsel, M. J. O. Deegan, K. Dyall, D. Elwood, E. Glendening, M. Gutowski,
+   A. C. Hess, J. Jaffe, B. G. Johnson, J. Ju, R. Kobayashi, R. Kutteh, Z. Lin,
+   R. Littlefield, X. Long, B. Meng, T. Nakajima, S. Niu, L. Pollack, M. Rosing,
+   K. Glaesemann, G. Sandrone, M. Stave, H. Taylor, G. Thomas, J. H. van Lenthe,
+                               A. T. Wong, Z. Zhang.
+
+ Total times  cpu:    12587.0s     wall:    14502.5s
 
-  Entering Davidson iterations
-  Restricted triplet excited states
-
-  Iter   NTrls   NConv    DeltaV     DeltaE      Time   
-  ----  ------  ------  ---------  ---------  --------- 
-    1     40       0     0.76E-01   0.10+100     1223.1
-    2     80       0     0.31E-01   0.27E-01     1238.4
-    3    120       0     0.12E+00   0.13E-01     1246.6
-    4    160       0     0.99E-01   0.94E-02     1255.5
-    5    200       0     0.37E-01   0.59E-02     1257.3
-    6    240       2     0.52E-01   0.33E-02     1266.5
-    7    278       4     0.24E-01   0.20E-02     1227.1
-    8    314       5     0.11E-01   0.74E-03     1176.8
-    9    349       5     0.52E-02   0.96E-04     1161.5
-   10    384       5     0.51E-02   0.93E-05     1161.1
-   11    419       5     0.47E-02   0.71E-06     1158.7
-   12    454       5     0.46E-02   0.42E-07     1165.3
-   13    489       5     0.44E-02   0.27E-07     1163.2
-   14    524       5     0.44E-02   0.64E-08     1164.3
-   15    559       5     0.43E-02   0.26E-08     1159.9
-   16    594       5     0.41E-02   0.25E-08     1164.1
-   17    629       5     0.40E-02   0.24E-08     1163.3
-   18    663       5     0.40E-02   0.69E-08     1135.1
-   19    698       5     0.38E-02   0.42E-08     1164.0
-   20    732       5     0.38E-02   0.65E-08     1134.4
-   21    766       2     0.37E-02   0.26E-06     1139.4
-   22    804       2     0.12E-01   0.49E-04     1237.7
-   23    842       0     0.52E+00   0.35E-01     1236.4
-   24    882       0     0.77E-01   0.15E+00     1282.8
-   25    922       0     0.40E+00   0.18E+00     1284.4
-   26    962       0     0.45E+00   0.17E+00     1288.4
-   27   1002       0     0.55E+00   0.18E+00     1289.9
-   28   1042       0     0.56E+00   0.18E+00     1288.7
-   29   1082       0     0.31E+00   0.18E+00     1289.5
-   30   1122       0     0.22E+00   0.18E+00     1291.2
-   31   1162       0     0.28E+00   0.17E+00     1290.1
-   32   1202       0     0.53E+00   0.18E+00     1295.9
-   33   1242       0     0.62E+00   0.98E-01     1303.7
-   34   1282       0     0.52E+00   0.17E+00     1298.4
-   35   1322       1     0.43E+00   0.18E+00     1299.5
-   36   1361       2     0.43E+00   0.18E+00     1285.1
-   37   1399       4     0.68E+00   0.18E+00     1261.8
-   38   1435       6     0.61E+00   0.18E+00     1206.2
-   39   1469       9     0.21E+00   0.18E+00     1163.8
-   40   1500      11     0.71E+00   0.18E+00     1100.0
-   41   1529      12     0.73E+00   0.18E+00     1052.4
-   42   1557      14     0.71E+00   0.16E+00     1021.1
-   43   1583      18     0.57E+00   0.18E+00      976.7
-   44   1605      19     0.21E+00   0.83E-01      882.0
-   45   1626      21     0.21E+00   0.46E-03      863.2
-   46   1645      22     0.16E+00   0.21E-04      810.6
-   47   1663      26     0.24E-01   0.12E-05      787.1
-   48   1677      24     0.20E-01   0.71E-06      694.9
-   49   1693      26     0.23E-01   0.16E-07      741.3
-   50   1707      28     0.11E-01   0.48E-08      697.0
-   51   1719      28     0.25E-01   0.68E-08      654.9
-   52   1731      29     0.29E-01   0.55E-08      651.1
-   53   1742      30     0.31E-01   0.17E-08      636.3
-   54   1752      30     0.24E-01   0.99E-09      610.8
-   55   1762      32     0.31E-01   0.58E-09      607.9
-   56   1770      31     0.28E-01   0.15E-08      566.0
-   57   1779      31     0.31E-01   0.69E-06      592.6
-   58   1788      31     0.35E-01   0.99E-07      594.1
-   59   1797      29     0.33E-01   0.31E-07      594.8
-   60   1808      28     0.32E-01   0.61E-08      639.3
-   61   1820      28     0.33E-01   0.79E-07      658.7
-   62   1832      27     0.34E-01   0.34E-07      662.2
-   63   1845      27     0.34E-01   0.50E-08      684.9
-   64   1858      29     0.39E-01   0.83E-08      686.5
-   65   1869      29     0.39E-01   0.34E-07      642.1
-   66   1880      26     0.41E-01   0.22E-07      644.4
-   67   1894      24     0.39E-01   0.17E-07      712.7
-   68   1910      26     0.30E-01   0.32E-07      757.6
-   69   1924      26     0.38E-01   0.13E-07      712.2
-   70   1938      26     0.38E-01   0.22E-08      712.2
-   71   1952      27     0.37E-01   0.12E-07      710.5
-   72   1965      27     0.34E-01   0.16E-07      695.5
-   73   1978      27     0.38E-01   0.44E-07      696.1
-   74   1991      26     0.38E-01   0.26E-07      694.3
-   75   2005      27     0.29E-01   0.15E-07      719.0
-   76   2018      28     0.28E-01   0.66E-08      700.2
-   77   2030      27     0.25E-01   0.39E-08      673.1
-   78   2043      26     0.29E-01   0.94E-08      699.9
-   79   2057      25     0.30E-01   0.52E-08      722.5
-   80   2072      25     0.31E-01   0.21E-07      753.6
-   81   2087      25     0.27E-01   0.23E-07      752.9
-   82   2102      24     0.32E-01   0.28E-08      757.2
-   83   2118      23     0.36E-01   0.80E-08      772.2
-   84   2135      25     0.38E-01   0.98E-08      796.1
-   85   2150      25     0.28E-01   0.71E-08      760.9
-   86   2165      24     0.39E-01   0.80E-08      762.9
-   87   2181      23     0.41E-01   0.22E-08      780.1
-   88   2198      25     0.43E-01   0.89E-08      808.6
-   89   2213      22     0.46E-01   0.18E-07      766.2
-   90   2231      20     0.52E-01   0.15E-07      827.9
-   91   2251      21     0.59E-01   0.34E-08      879.0
-   92   2270      20     0.32E-01   0.29E-08      862.6
-   93   2290      23     0.30E-01   0.11E-07      883.4
-   94   2307      20     0.57E-01   0.16E-07      818.6
-   95   2327      23     0.56E-01   0.13E-07      889.9
-   96   2344      25     0.58E-01   0.48E-08      822.0
-   97   2359      24     0.51E-01   0.32E-08      782.4
-   98   2375      24     0.35E-01   0.20E-08      795.8
-   99   2391      25     0.34E-01   0.86E-08      799.0
-  100   2406      23     0.37E-01   0.61E-08      786.3
- ------------------------------------------------------------------------
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-    44:  task tddft energy
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                
- tddft_davidson: exceeded maxiter                   0
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
-  current input line : 
-     0: 
- ------------------------------------------------------------------------
- ------------------------------------------------------------------------
- This type of error is most commonly associated with calculations not reaching convergence criteria
- ------------------------------------------------------------------------
- For more information see the NWChem manual at https://nwchemgit.github.io
-
-
- For further details see manual section:                                                                                                                                                                                                                                                                

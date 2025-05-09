@@ -34,7 +34,7 @@
  dft
   grid xfine
   xc xwpbe 1.00 cpbe96 1.0 hfexch 1.00
-  cam 0.263 cam_alpha 0.00 cam_beta 1.00
+  cam 0.261 cam_alpha 0.00 cam_beta 1.00
   mult 1
  end
  tddft
