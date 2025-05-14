@@ -41,6 +41,9 @@ pip install -r requirements.txt
 
 If you use **Simplified Tuned Range Separated** in your research, please cite the following work:
 
+https://doi.org/10.48550/arXiv.2505.08383
+
+
 **Simplified Tuned Range Separated Toolkit**  
 
 
