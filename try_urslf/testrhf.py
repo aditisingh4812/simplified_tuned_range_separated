@@ -8,7 +8,7 @@ from pyscf.dft import numint
 # Define the molecule with coordinates and custom nuclear charges
 # ------------------------------------------------------------------------------
 mol = gto.M(atom='''
-Ne 0 0 0        
+He 0 0 0        
         ''',
         basis='cc-pvdz',  
         spin=0)  
