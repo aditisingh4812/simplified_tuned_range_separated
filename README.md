@@ -5,7 +5,7 @@ This initiative offers practical guidance on implementing the Simplified Tuned R
 # Repository Overview:
 The repository archives computational workflows and raw data supporting the figures and tables in the associated paper. It includes:
 
-Input/output files from quantum chemistry packages (NWChem and Q-Chem) for reproducibility.
+Input files from quantum chemistry packages (NWChem) for reproducibility.
 
 Calculation details for transparency and peer validation.
 
