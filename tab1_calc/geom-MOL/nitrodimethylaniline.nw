@@ -40,6 +40,5 @@
  tddft
   rpa
   nroots 8
-  tda
  end
  task tddft energy
