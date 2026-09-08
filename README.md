@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22657188.svg)](https://doi.org/10.5281/zenodo.22657188)
 # Simplified Tuned Range Separated
 
 This initiative offers practical guidance on implementing the Simplified Tuned Range-Separated Functional (STRSF). The methodology is demonstrated through the try_urslf GitHub repository, which hosts a customized extension of the PySCF computational chemistry framework. Within this repository, users will find dedicated modules for both restricted and unrestricted calculations, tailored explicitly for optimizing the ω_eff parameter in range-separated hybrid functionals.
