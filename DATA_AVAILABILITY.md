@@ -57,7 +57,7 @@ Calculation of the GDD range-separation parameter, ω_GDD.
 Molecular and periodic-system calculations.
 Ground-state electron-density calculations.
 Excited-state calculations using time-dependent DFT/range-separated hybrid approaches.
-Supporting calculations performed using PySCF, NWChem, and VASP where applicable.
+Supporting calculations performed using PySCF and NWChem where applicable.
 
 The repository provides customized PySCF functionality for calculating ω_eff and implementing the corresponding range-separated hybrid calculations. It also contains NWChem input files and computational workflows required to reproduce the reported calculations.
 
@@ -124,19 +124,13 @@ Users are requested to cite both the software DOI and the associated publication
 
 7. Funding
 
-This work was supported by the National Science Centre (Narodowe Centrum Nauki), Poland, under the SONATA BIS 11 project:
+This work was supported by the National Science Centre (Narodowe Centrum Nauki), Poland:
 
-Project registration number: 2021/42/E/ST4/00096
+Project registration number: 2021/38/B/HS1/00001
 
 Project title: Quantum Chemistry under Spatial Confinement
 
 Principal Investigator: Dr. Szymon Filip Śmiga
-
-Host institution: Nicolaus Copernicus University, Faculty of Physics, Astronomy and Informatics.
-
-The NCN project officially began on 10 March 2022 and is scheduled to run until 9 October 2027.
-
-The associated publication explicitly acknowledges the support of the National Science Centre, Poland under grant 2021/42/E/ST4/00096.
 
 8. Persistent identifiers
 
