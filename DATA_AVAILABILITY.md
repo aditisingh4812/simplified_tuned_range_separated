@@ -61,7 +61,6 @@ Supporting calculations performed using PySCF and NWChem where applicable.
 
 The repository provides customized PySCF functionality for calculating ω_eff and implementing the corresponding range-separated hybrid calculations. It also contains NWChem input files and computational workflows required to reproduce the reported calculations.
 
-For the periodic calculations reported in the publication, VASP calculations used PBE-generated electron densities; the reported setups include Γ-centered k-point meshes and specified plane-wave energy cutoffs.
 
 5. Data format and structure
 
