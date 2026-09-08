@@ -1,1 +1,62 @@
+cff-version: 1.2.0
+title: "Simplified Tuned Range Separated Toolkit"
+type: software
 
+message: "If you use this software or the associated computational data, please cite the software DOI and the associated publication."
+
+authors:
+  - family-names: "Singh"
+    given-names: "Aditi"
+  - family-names: "Jana"
+    given-names: "Subrata"
+  - family-names: "Constantin"
+    given-names: "Lucian A."
+  - family-names: "Della Sala"
+    given-names: "Fabio"
+  - family-names: "Samal"
+    given-names: "Prasanjit"
+  - family-names: "Śmiga"
+    given-names: "Szymon"
+
+version: "1.0.0"
+date-released: "2026-09-08"
+
+repository-code: "https://github.com/aditisingh4812/simplified_tuned_range_separated"
+
+doi: "10.5281/zenodo.22657188"
+
+license: "BSD-3-Clause"
+
+keywords:
+  - density functional theory
+  - range-separated hybrid
+  - range-separation parameter
+  - omega effective
+  - omega GDD
+  - quantum chemistry
+  - PySCF
+  - NWChem
+  - VASP
+
+references:
+  - type: article
+    authors:
+      - family-names: "Singh"
+        given-names: "Aditi"
+      - family-names: "Jana"
+        given-names: "Subrata"
+      - family-names: "Constantin"
+        given-names: "Lucian A."
+      - family-names: "Della Sala"
+        given-names: "Fabio"
+      - family-names: "Samal"
+        given-names: "Prasanjit"
+      - family-names: "Śmiga"
+        given-names: "Szymon"
+    title: "Simplified, Physically Motivated, and Broadly Applicable Range-Separation Tuning"
+    journal: "The Journal of Physical Chemistry Letters"
+    year: 2025
+    volume: 16
+    issue: 32
+    pages: 8198-8208
+    doi: "10.1021/acs.jpclett.5c01441"
